@@ -1,0 +1,1 @@
+print(f"The list excluding duplicate values is as follows: {set([x for x in input('Approach 01: Enter the strings seperated by a space: ').split()])}")
