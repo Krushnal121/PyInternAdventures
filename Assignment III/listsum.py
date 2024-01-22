@@ -1,7 +1,7 @@
 #Write a Python program to sum all the items in a list.
 
 #Approach 1
-#print(f"Sum of all numbers is: {sum([float(x) for x in input('Enter numbers seperated by space: ').split()])}")
+print(f"Sum of all numbers is: {sum([float(x) for x in input('Enter numbers seperated by space: ').split()])}")
 
 #Approach 2
 numlist=[]
