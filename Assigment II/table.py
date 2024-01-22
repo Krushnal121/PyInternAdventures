@@ -1,0 +1,1 @@
+print(f"The table of 7 is as follows:\n{[print(x) for x in [(f'7*{i}={7*i}') for i in range(11) if i!= 0]]}")
