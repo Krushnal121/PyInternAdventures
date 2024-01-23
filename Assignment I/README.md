@@ -1,4 +1,4 @@
-# Python Overview and Benefits
+# 01. Python Overview and Benefits
 
 ## **Python Overview:**
 
@@ -52,7 +52,7 @@
 ## Conclusion:
 Python's simplicity, extensive libraries, and community support contribute to its popularity and effectiveness in diverse domains, ranging from web development to data science and artificial intelligence. Its readability and versatility make it an excellent choice for both beginners and experienced developers.
 
-# Lists and Tuples in Python
+# 02. Lists and Tuples in Python
 
 ## **Lists:**
 
@@ -105,3 +105,101 @@ Python's simplicity, extensive libraries, and community support contribute to it
 
 ## Conclusion:
 Understanding the differences between lists and tuples is crucial for choosing the appropriate data structure based on the requirements of a specific task in Python. Lists offer flexibility and mutability, while tuples provide immutability and enhanced performance.
+
+# 03. Common Built-in Data Types in Python
+
+Python supports a variety of built-in data types, each serving a specific purpose in programming. Here are some of the most common ones:
+
+## 1. **Numeric Types:**
+
+- **int:**
+  - Represents **integer** values.
+  - Example: `x = 5`
+
+- **float:**
+  - Represents **floating-point** values.
+  - Example: `y = 3.14`
+
+- **complex:**
+  - Represents **complex** numbers with a real and imaginary part.
+  - Example: `z = 2 + 3j`
+
+## 2. **Sequence Types:**
+
+- **str:**
+  - Represents **strings** or sequences of characters.
+  - Example: `name = 'Python'`
+
+- **list:**
+  - Represents **lists**, which are ordered and mutable collections.
+  - Example: `my_list = [1, 2, 3]`
+
+- **tuple:**
+  - Represents **tuples**, which are ordered and immutable collections.
+  - Example: `my_tuple = (1, 2, 3)`
+
+## 3. **Set Types:**
+
+- **set:**
+  - Represents **sets**, which are unordered and mutable collections of unique elements.
+  - Example: `my_set = {1, 2, 3}`
+
+- **frozenset:**
+  - Represents **frozensets**, which are similar to sets but immutable.
+  - Example: `my_frozenset = frozenset({1, 2, 3})`
+
+## 4. **Mapping Type:**
+
+- **dict:**
+  - Represents **dictionaries**, which are key-value pairs and unordered.
+  - Example: `my_dict = {'key': 'value'}`
+
+## 5. **Boolean Type:**
+
+- **bool:**
+  - Represents **boolean** values (True or False).
+  - Example: `is_valid = True`
+
+## 6. **None Type:**
+
+- **NoneType:**
+  - Represents the **None** object, indicating the absence of a value.
+  - Example: `result = None`
+
+## Conclusion:
+Understanding the common built-in data types in Python is essential for effective programming. These data types provide the foundation for storing and manipulating different kinds of information, offering versatility and flexibility in the development process.
+
+# 04. Python List Methods with Examples
+
+| Method              | Description                                                                      | Example                                         |
+|---------------------|----------------------------------------------------------------------------------|-------------------------------------------------|
+| **append()**        | Appends an element at the end of the list.                                       | `my_list = [1, 2, 3]`<br>`my_list.append(4)`<br>`print(my_list)  # Output: [1, 2, 3, 4]` |
+| **extend()**        | Extends the list by appending elements from an iterable.                         | `list1 = [1, 2, 3]`<br>`list2 = [4, 5, 6]`<br>`list1.extend(list2)`<br>`print(list1)  # Output: [1, 2, 3, 4, 5, 6]` |
+| **insert()**        | Inserts an element at a specified position.                                      | `my_list = [1, 2, 3]`<br>`my_list.insert(1, 4)`<br>`print(my_list)  # Output: [1, 4, 2, 3]` |
+| **remove()**        | Removes the first occurrence of a specified element.                             | `my_list = [1, 2, 3, 2]`<br>`my_list.remove(2)`<br>`print(my_list)  # Output: [1, 3, 2]` |
+| **pop()**           | Removes and returns the element at a specified index.                            | `my_list = [1, 2, 3]`<br>`popped_element = my_list.pop(1)`<br>`print(my_list)`<br>`print(popped_element)` |
+| **index()**         | Returns the index of the first occurrence of a specified element.               | `my_list = [1, 2, 3, 2]`<br>`index = my_list.index(2)`<br>`print(index)  # Output: 1` |
+| **count()**         | Returns the number of occurrences of a specified element.                       | `my_list = [1, 2, 3, 2]`<br>`count = my_list.count(2)`<br>`print(count)  # Output: 2` |
+| **sort()**          | Sorts the elements of the list in ascending order.                               | `my_list = [3, 1, 4, 2]`<br>`my_list.sort()`<br>`print(my_list)  # Output: [1, 2, 3, 4]` |
+| **reverse()**       | Reverses the order of the elements in the list.                                 | `my_list = [1, 2, 3]`<br>`my_list.reverse()`<br>`print(my_list)  # Output: [3, 2, 1]` |
+| **clear()**         | Removes all elements from the list.                                             | `my_list = [1, 2, 3]`<br>`my_list.clear()`<br>`print(my_list)  # Output: []` |
+
+These methods provide powerful tools for manipulating and modifying lists in Python, enabling efficient and flexible data handling.
+
+# 05. Python Dictionary Methods with Examples
+
+| Method              | Description                                                                      | Example                                           |
+|---------------------|----------------------------------------------------------------------------------|---------------------------------------------------|
+| **clear()**         | Removes all items from the dictionary.                                           | `my_dict = {'key1': 1, 'key2': 2}`<br>`my_dict.clear()`<br>`print(my_dict)  # Output: {}` |
+| **copy()**          | Returns a shallow copy of the dictionary.                                        | `my_dict = {'key1': 1, 'key2': 2}`<br>`new_dict = my_dict.copy()`<br>`print(new_dict)` |
+| **fromkeys()**      | Creates a new dictionary with specified keys and values.                         | `keys = ('key1', 'key2')`<br>`values = 0`<br>`new_dict = dict.fromkeys(keys, values)`<br>`print(new_dict)  # Output: {'key1': 0, 'key2': 0}` |
+| **get()**           | Returns the value of a specified key. If the key is not found, it returns a default value. | `my_dict = {'key1': 1, 'key2': 2}`<br>`value = my_dict.get('key1', 0)`<br>`print(value)  # Output: 1` |
+| **items()**         | Returns a list of key-value pairs as tuples.                                    | `my_dict = {'key1': 1, 'key2': 2}`<br>`items = my_dict.items()`<br>`print(items)  # Output: dict_items([('key1', 1), ('key2', 2)])` |
+| **keys()**          | Returns a list of dictionary keys.                                              | `my_dict = {'key1': 1, 'key2': 2}`<br>`keys = my_dict.keys()`<br>`print(keys)  # Output: dict_keys(['key1', 'key2'])` |
+| **pop()**           | Removes the item with the specified key and returns its value.                  | `my_dict = {'key1': 1, 'key2': 2}`<br>`value = my_dict.pop('key1')`<br>`print(value)` |
+| **popitem()**       | Removes and returns the last inserted key-value pair as a tuple.               | `my_dict = {'key1': 1, 'key2': 2}`<br>`item = my_dict.popitem()`<br>`print(item)` |
+| **setdefault()**    | Returns the value of a specified key. If the key is not found, it inserts the key with a default value. | `my_dict = {'key1': 1, 'key2': 2}`<br>`value = my_dict.setdefault('key3', 0)`<br>`print(value)` |
+| **update()**        | Updates the dictionary with key-value pairs from another dictionary or iterable. | `dict1 = {'key1': 1, 'key2': 2}`<br>`dict2 = {'key2': 3, 'key3': 4}`<br>`dict1.update(dict2)`<br>`print(dict1)  # Output: {'key1': 1, 'key2': 3, 'key3': 4}` |
+| **values()**        | Returns a list of dictionary values.                                            | `my_dict = {'key1': 1, 'key2': 2}`<br>`values = my_dict.values()`<br>`print(values)  # Output: dict_values([1, 2])` |
+
+These methods offer powerful tools for manipulating and managing dictionaries in Python, providing flexibility and efficiency in handling key-value pairs.
