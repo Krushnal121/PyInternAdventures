@@ -3,3 +3,4 @@ print(f"The addition of the numbers you have provided is: {float(input('Enter th
 
 #Python program to add indefinite numbers
 print(f"The sum of numbers you have provided is: {sum([float(i) for i in [x for x in input('Enter the numbers separated by spaces: ').split()]])}")
+
