@@ -1,4 +1,4 @@
-#Write a Python program to calculate product of all the items in a list.
+#Write a Python program to calculate product of all the items in a List.
 
 #Approach 1
 numlist1=[float(x) for x in input('Enter numbers seperated by space: ').split()]

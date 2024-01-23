@@ -1,4 +1,4 @@
-#Write a Python program to get the Smallest number from a list.
+#Write a Python program to get the Smallest number from a List.
 
 #Approach 1
 numlist=([x for x in input("Approach 01: Enter the numbers seperated by a space: ").split()])

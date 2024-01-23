@@ -1,4 +1,4 @@
-#Write a Python program to sum all the items in a list.
+#Write a Python program to sum all the items in a List.
 
 #Approach 1
 print(f"Sum of all numbers is: {sum([float(x) for x in input('Enter numbers seperated by space: ').split()])}")
