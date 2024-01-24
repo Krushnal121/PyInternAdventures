@@ -33,7 +33,7 @@ Explore a variety of Python projects, each designed to enhance your coding skill
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/Python-Intern-Quests.git
+   git clone https://github.com/Krushnal121/PyInternAdventures.git
 
 ## Contribution Guidelines
 Found a bug, have a suggestion, or want to add your own Python project? Contributions are welcome! Please follow these guidelines:
