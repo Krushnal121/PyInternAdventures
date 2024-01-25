@@ -25,9 +25,11 @@
 
 Explore a variety of Python projects, each designed to enhance your coding skills and deepen your understanding of Python development. From beginner-friendly tasks to advanced challenges, there's something for everyone.
 
-👉 [Project 1: Project_Name](projects/project1)
-👉 [Project 2: Project_Name](projects/project2)
-👉 [Project 3: Project_Name](projects/project3)
+👉 [Assignment I](Assignment%20I)
+👉 [Assignment II](Assigment%20II)
+👉 [Assignment III](Assignment%20III)
+👉 [Assignment IV](Assignment%20IV)
+👉 [HackerRank Practice](HackerRank%20Practice)
 
 ## How to Use
 
