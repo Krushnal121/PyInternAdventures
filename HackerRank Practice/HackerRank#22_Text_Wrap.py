@@ -9,7 +9,7 @@ int max_width: the width to wrap to
 Returns
 string: a single string with newline characters ('\n') where the breaks should be
 
-Problem Link: https://www.hackerrank.com
+Problem Link: https://hackerrank.com/challenges/text-wrap/problem
 '''
 
 import textwrap
