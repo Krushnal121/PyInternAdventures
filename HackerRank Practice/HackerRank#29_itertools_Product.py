@@ -11,6 +11,5 @@ Note:  and  are sorted lists, and the cartesian product's tuples should be outpu
 Problem Link: https://www.hackerrank.com/challenges/itertools-product/problem
 '''
 
-(A, B) = (input().split(" "), input().split(" "))
-for i in A:
-    for j in B: print(f"({i}, {j})", end=" ")
+from itertools import product
+print(*list(product(list(map(int, input().split())),list(map(int, input().split())))))
