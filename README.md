@@ -29,6 +29,7 @@ Explore a variety of Python projects, each designed to enhance your coding skill
 👉 [Assignment II](Assigment%20II)
 👉 [Assignment III](Assignment%20III)
 👉 [Assignment IV](Assignment%20IV)
+👉 [Assignment V](Assignment%20V)
 👉 [HackerRank Practice](HackerRank%20Practice)
 
 ## How to Use
