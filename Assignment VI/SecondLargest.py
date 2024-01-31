@@ -1,0 +1,2 @@
+#Program to print sencond highest number in list
+print(f"The second largest number in the given list is: {(sorted([int(input()) for x in range(int(input('Enter the numbers of Elements you want to enter and enter the respective numbers on next line: ')))]))[-2]}")
