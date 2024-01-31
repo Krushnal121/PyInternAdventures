@@ -1,0 +1,2 @@
+# Program to calculate maximum of the entered list
+print(f"The Max number in the given list is: {max([int(input()) for x in range(int(input('Enter the numbers of Elements you want to enter and enter the respective numbers on next line: ')))])}")
