@@ -1,0 +1,2 @@
+#Program to accept the numbers inside list and print it.
+print(f"The List you have Entered is as follows: {[int(input()) for i in range(int(input('Enter the numbers of Elements you want to enter and enter the respective numbers on next line: ')))]}")
