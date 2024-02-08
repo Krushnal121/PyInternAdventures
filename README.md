@@ -30,7 +30,9 @@ Explore a variety of Python projects, each designed to enhance your coding skill
 👉 [Assignment III](Assignment%20III)
 👉 [Assignment IV](Assignment%20IV)
 👉 [Assignment V](Assignment%20V)
-👉 [HackerRank Practice](HackerRank%20Practice)
+👉 [Assignment VI](Assignment%20VI)
+👉 [Python HackerRank Practice](Python%20HackerRank%20Practice)
+👉 [SQL HackerRank Practice](SQL%20HackerRank%20Practice)
 
 ## How to Use
 
