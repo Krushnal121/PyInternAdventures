@@ -54,7 +54,7 @@ Let's connect! Feel free to reach out for questions, feedback, or just to say he
 - Email: krushnalpatil1111@gmail.com
 - linkedin: <a href="https://www.linkedin.com/in/krushnal-jagannath-patil/" target="_blank">@krushnal-jagannath-patil</a>
 - Instagram: <a href="https://www.instagram.com/krushnal_patil_111/" target="_blank">@krushnal_patil_111</a>
-- Web: <a href="https://bento.me/krushnalpatil" target="_blank">bento.me/krushnalpatil</a>
+- Web: <a href="https://bento.me/krushnalpatil" target="_blank">bento.me/krushnalpatil </a>
 
 
 -Happy coding! 🚀✨
