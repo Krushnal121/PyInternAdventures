@@ -1,4 +1,7 @@
 # PyInternAdventures
+
+![GitHub Banners_pages-to-jpg-0001](https://github.com/user-attachments/assets/80cf34fd-241c-4099-a159-70ab17d53624)
+
 "🐍 PyInternAdventures 🚀 - Embark on a coding adventure with this repository dedicated to curating and showcasing my Python internship projects! From innovative challenges to hands-on exercises, join me on a journey of skill-building and project mastery. Let's code, learn, and conquer the world of Python internships together! 💻✨
 
 ## Table of Contents
